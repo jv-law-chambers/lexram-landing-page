@@ -55,7 +55,17 @@ const testimonials = [
   }
 ];
 
-const TestimonialCard = ({ testimonial }) => (
+type Testimonial = { body: string; author: { name: string; handle: string; imageUrl: string; }; };
+
+type TestimonialCardProps = {
+  testimonial: Testimonial;
+};
+
+type TestimonialsGridProps = {
+  testimonials: Testimonial[];
+};
+
+const TestimonialCard = ({ testimonial }: TestimonialCardProps) => (
   <Card className="my-4">
     <CardContent className="pt-6">
       <blockquote>
@@ -75,7 +85,7 @@ const TestimonialCard = ({ testimonial }) => (
   </Card>
 );
 
-const TestimonialsGrid = ({ testimonials }) => (
+const TestimonialsGrid = ({ testimonials }: TestimonialsGridProps) => (
   <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {testimonials.map((testimonial) => (
       <TestimonialCard key={testimonial.author.handle} testimonial={testimonial} />
