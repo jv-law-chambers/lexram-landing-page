@@ -23,11 +23,11 @@ export function Navbar() {
           <a href="/" className="mr-6 flex items-center space-x-2">
             <span className="hidden font-bold sm:inline-block">LexRam</span>
           </a>
-          <nav className="flex items-center space-x-6 text-sm">
+          {/* <nav className="flex items-center space-x-6 text-sm">
             <a href="/about">Documents</a>
             <a href="/products">Components</a>
             <a href="/contact">Contact</a>
-          </nav>
+          </nav> */}
         </div>
         {/* <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
           <div className="flex items-center space-x-4 md:w-auto md:flex-none">

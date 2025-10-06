@@ -18,9 +18,9 @@ const FeatureItem: FC<FeatureItemProps> = ({ title, description, imageUrl, isIma
     <div className={`order-2 ${isImageLeft ? "md:order-2" : "md:order-1"}`}>
       <h3 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">{title}</h3>
       <p className="mt-6 text-lg leading-8 text-muted-foreground">{description}</p>
-      <div className="mt-4">
+      {/* <div className="mt-4">
         <Button variant="secondary">Learn more</Button>
-      </div>
+      </div> */}
     </div>
     {!isImageLeft && (
       <div className="order-1 md:order-2">
@@ -32,33 +32,46 @@ const FeatureItem: FC<FeatureItemProps> = ({ title, description, imageUrl, isIma
 
 const DEFAULT_ITEMS: FeatureItemProps[] = [
   {
-    title: "Rapid Landing Page Development",
-    description:
-      "Build stunning landing pages in minutes with our intuitive drag-and-drop interface and pre-designed components.",
+    title: "Contextual Legal Intelligence",
+    description: "Advanced natural language processing understands legal concepts, not just keyword matching. Search 'contract breach remedies' and discover comprehensive case law analysis across Indian jurisdictions.",
     imageUrl: "https://ui.convertfa.st/images/graphic-walker-light-2.png",
     isImageLeft: true,
   },
   {
-    title: "Customizable Templates",
+    title: "Supreme Court & High Court Analysis",
     description:
-      "Choose from a wide range of professionally designed templates and easily customize them to match your brand.",
+      "Detailed judicial reasoning breakdowns from Supreme Court of India and all High Courts. Understand precedent patterns and legal evolution through AI-powered case study generation.",
     imageUrl: "https://ui.convertfa.st/images/convertfast-ui-cli.png",
     isImageLeft: false,
   },
   {
-    title: "Code Export and Integration",
+    title: "9 Indian Languages + 40 International Languages",
     description:
-      "Export clean, optimized code that seamlessly integrates with your existing projects, saving valuable development time.",
+      "Legal research in Hindi, Tamil, Telugu, Bengali, Marathi, Gujarati, Kannada, Malayalam, Punjabi and 40+ global languages. Breaking language barriers in Indian legal practice.",
     imageUrl: "https://ui.convertfa.st/images/convertfast-ui-light-demo.png",
     isImageLeft: true,
   },
   {
-    title: "Responsive Design",
+    title: "Historical Legal Evolution Tracking",
     description:
-      "Create mobile-friendly landing pages that look great on all devices, ensuring a consistent user experience.",
+      "Filter legal precedents by time periods. Track how Indian legal interpretations evolved from colonial law to modern constitutional jurisprudence.",
     imageUrl: "https://ui.convertfa.st/images/convertfast-demo.png",
     isImageLeft: false,
   },
+  {
+    title: "Multi-Court Pattern Recognition",
+    description:
+    "AI identifies patterns across Supreme Court and High Court judgments. Compare similar cases across different Indian jurisdictions for comprehensive legal strategy.",
+    imageUrl: "https://ui.convertfa.st/images/convertfast-demo.png",
+    isImageLeft: true,
+  },
+  {
+    title: "Zero Hallucination Legal AI",
+    description:
+    "Every response sourced from verified Indian legal databases. No artificial legal advice - only authenticated case law, statutes, and regulatory citations.",
+    imageUrl: "https://ui.convertfa.st/images/convertfast-demo.png",
+    isImageLeft: false,
+  }
 ];
 
 interface FeatureSectionProps {

@@ -105,7 +105,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="mt-8 text-center">
-          <p className="text-base text-gray-400">© 2024 Convertfast. All rights reserved.</p>
+          <p className="text-base text-gray-400">© {new Date().getFullYear()}  LexRam. All rights reserved.</p>
         </div>
       </div>
     </footer>
