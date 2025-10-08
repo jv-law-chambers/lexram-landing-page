@@ -9,8 +9,8 @@ interface CTAData {
 
 export const CTA: FC<CTAData> = (props) => {
   const {
-    title = "Ready to build your high-converting landing page?",
-    description = "With ConvertFast, you can create stunning landing pages that turn visitors into customers. Start building for free and see the difference.",
+    title = "Empower your legal research with AI precision",
+    description = "LexRam helps law firms and professionals analyze judgments, extract facts, and discover precedents instantly. Harness the power of AI to save hours of manual legal work and make informed decisions faster.",
   } = props;
   return (
     <section className="bg-gradient-to-t dark relative">
@@ -21,15 +21,15 @@ export const CTA: FC<CTAData> = (props) => {
           <p className="mt-6 text-xl leading-8 opacity-90 text-muted-foreground">{description}</p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" variant="outline" className="w-full sm:w-auto">
-              Get started for free
+              Start free trial
             </Button>
             <Button size="lg" className="w-full sm:w-auto">
-              View documentation
+              Visit Now
             </Button>
           </div>
-          <p className="mt-6 text-sm opacity-75 text-muted-foreground">
+          {/* <p className="mt-6 text-sm opacity-75 text-muted-foreground">
             No credit card required. Start building in minutes.
-          </p>
+          </p> */}
         </div>
       </div>
     </section>

@@ -31,45 +31,45 @@ const FeatureItem: FC<FeatureItemProps> = ({ title, description, imageUrl, isIma
 );
 
 const DEFAULT_ITEMS: FeatureItemProps[] = [
-  {
-    title: "Contextual Legal Intelligence",
-    description: "Advanced natural language processing understands legal concepts, not just keyword matching. Search 'contract breach remedies' and discover comprehensive case law analysis across Indian jurisdictions.",
-    imageUrl: "https://ui.convertfa.st/images/graphic-walker-light-2.png",
-    isImageLeft: true,
-  },
+  // {
+  //   title: "Contextual Legal Intelligence",
+  //   description: "Advanced natural language processing understands legal concepts, not just keyword matching. Search 'contract breach remedies' and discover comprehensive case law analysis across Indian jurisdictions.",
+  //   imageUrl: "https://ui.convertfa.st/images/graphic-walker-light-2.png",
+  //   isImageLeft: true,
+  // },
   {
     title: "Supreme Court & High Court Analysis",
     description:
       "Detailed judicial reasoning breakdowns from Supreme Court of India and all High Courts. Understand precedent patterns and legal evolution through AI-powered case study generation.",
-    imageUrl: "https://ui.convertfa.st/images/convertfast-ui-cli.png",
-    isImageLeft: false,
+    imageUrl: "/law-angel.avif",
+    isImageLeft: true,
   },
   {
     title: "9 Indian Languages + 40 International Languages",
     description:
       "Legal research in Hindi, Tamil, Telugu, Bengali, Marathi, Gujarati, Kannada, Malayalam, Punjabi and 40+ global languages. Breaking language barriers in Indian legal practice.",
-    imageUrl: "https://ui.convertfa.st/images/convertfast-ui-light-demo.png",
-    isImageLeft: true,
-  },
-  {
-    title: "Historical Legal Evolution Tracking",
-    description:
-      "Filter legal precedents by time periods. Track how Indian legal interpretations evolved from colonial law to modern constitutional jurisprudence.",
-    imageUrl: "https://ui.convertfa.st/images/convertfast-demo.png",
+    imageUrl: "/language.jpg",
     isImageLeft: false,
   },
+  // {
+  //   title: "Historical Legal Evolution Tracking",
+  //   description:
+  //     "Filter legal precedents by time periods. Track how Indian legal interpretations evolved from colonial law to modern constitutional jurisprudence.",
+  //   imageUrl: "/tally.jpg",
+  //   isImageLeft: false,
+  // },
   {
     title: "Multi-Court Pattern Recognition",
     description:
     "AI identifies patterns across Supreme Court and High Court judgments. Compare similar cases across different Indian jurisdictions for comprehensive legal strategy.",
-    imageUrl: "https://ui.convertfa.st/images/convertfast-demo.png",
+    imageUrl: "/pattern.avif",
     isImageLeft: true,
   },
   {
     title: "Zero Hallucination Legal AI",
     description:
     "Every response sourced from verified Indian legal databases. No artificial legal advice - only authenticated case law, statutes, and regulatory citations.",
-    imageUrl: "https://ui.convertfa.st/images/convertfast-demo.png",
+    imageUrl: "/hallucination.avif",
     isImageLeft: false,
   }
 ];

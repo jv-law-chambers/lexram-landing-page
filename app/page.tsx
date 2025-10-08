@@ -15,9 +15,9 @@ function LandingPage() {
       <HeroSection />
 			{/* <LogoCloud /> */}
 			<FeatureSection />
-			<SocialProof />
+			{/* <SocialProof /> */}
 			<CTA />
-			<FAQ />
+			{/* <FAQ /> */}
 			<PricingSection />
 			<Footer />
 

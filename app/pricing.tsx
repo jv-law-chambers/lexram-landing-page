@@ -66,8 +66,7 @@ export function PricingSection() {
           </p>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-muted-foreground sm:text-center">
-          ConvertFast offers flexible pricing options to suit developers and teams of all sizes. Start building stunning
-          landing pages faster than ever.
+          LexRam offers flexible pricing plans designed for lawyers, firms, and research teams of all sizes. Start transforming your legal workflow with AI today.
         </p>
         <div className="mt-20 flow-root">
           <div className="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 gap-x-4 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 xl:-mx-4">
